@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gamem\\Desktop\\School Stuff\\C# Web Apps\\Devop_DiceRoller\\Devop_DiceRoller.csproj": {}
+    "C:\\Users\\gamem\\Desktop\\DevOps\\Devop_DiceRoller\\Devop_DiceRoller.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gamem\\Desktop\\School Stuff\\C# Web Apps\\Devop_DiceRoller\\Devop_DiceRoller.csproj": {
+    "C:\\Users\\gamem\\Desktop\\DevOps\\Devop_DiceRoller\\Devop_DiceRoller.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gamem\\Desktop\\School Stuff\\C# Web Apps\\Devop_DiceRoller\\Devop_DiceRoller.csproj",
+        "projectUniqueName": "C:\\Users\\gamem\\Desktop\\DevOps\\Devop_DiceRoller\\Devop_DiceRoller.csproj",
         "projectName": "Devop_DiceRoller",
-        "projectPath": "C:\\Users\\gamem\\Desktop\\School Stuff\\C# Web Apps\\Devop_DiceRoller\\Devop_DiceRoller.csproj",
+        "projectPath": "C:\\Users\\gamem\\Desktop\\DevOps\\Devop_DiceRoller\\Devop_DiceRoller.csproj",
         "packagesPath": "C:\\Users\\gamem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gamem\\Desktop\\School Stuff\\C# Web Apps\\Devop_DiceRoller\\obj\\",
+        "outputPath": "C:\\Users\\gamem\\Desktop\\DevOps\\Devop_DiceRoller\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
