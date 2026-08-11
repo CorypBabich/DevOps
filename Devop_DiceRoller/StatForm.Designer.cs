@@ -49,27 +49,27 @@
             label8 = new Label();
             label9 = new Label();
             pictureBox2 = new PictureBox();
-            label10 = new Label();
-            label11 = new Label();
-            label12 = new Label();
-            label13 = new Label();
-            label14 = new Label();
-            label15 = new Label();
-            label16 = new Label();
-            label17 = new Label();
-            label18 = new Label();
-            label19 = new Label();
-            label20 = new Label();
-            label21 = new Label();
-            label22 = new Label();
-            label23 = new Label();
-            label24 = new Label();
-            label26 = new Label();
-            label29 = new Label();
-            label36 = new Label();
-            label33 = new Label();
-            label30 = new Label();
-            label27 = new Label();
+            lblD8tot = new Label();
+            lblD6tot = new Label();
+            lblD4tot = new Label();
+            lblD4_1 = new Label();
+            lblD6_1 = new Label();
+            lblD8_1 = new Label();
+            lblD4_2 = new Label();
+            lblD6_2 = new Label();
+            lblD8_2 = new Label();
+            lblD4_3 = new Label();
+            lblD6_3 = new Label();
+            lblD8_3 = new Label();
+            lblD4_4 = new Label();
+            lblD6_4 = new Label();
+            lblD8_4 = new Label();
+            lblD6_5 = new Label();
+            lblD6_6 = new Label();
+            lblD8_8 = new Label();
+            lblD8_7 = new Label();
+            lblD8_6 = new Label();
+            lblD8_5 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
@@ -263,221 +263,221 @@
             pictureBox2.TabIndex = 26;
             pictureBox2.TabStop = false;
             // 
-            // label10
+            // lblD8tot
             // 
-            label10.AutoSize = true;
-            label10.Location = new Point(410, 129);
-            label10.Name = "label10";
-            label10.Size = new Size(17, 20);
-            label10.TabIndex = 27;
-            label10.Text = "0";
+            lblD8tot.AutoSize = true;
+            lblD8tot.Location = new Point(410, 129);
+            lblD8tot.Name = "lblD8tot";
+            lblD8tot.Size = new Size(17, 20);
+            lblD8tot.TabIndex = 27;
+            lblD8tot.Text = "0";
             // 
-            // label11
+            // lblD6tot
             // 
-            label11.AutoSize = true;
-            label11.Location = new Point(262, 129);
-            label11.Name = "label11";
-            label11.Size = new Size(17, 20);
-            label11.TabIndex = 28;
-            label11.Text = "0";
+            lblD6tot.AutoSize = true;
+            lblD6tot.Location = new Point(262, 129);
+            lblD6tot.Name = "lblD6tot";
+            lblD6tot.Size = new Size(17, 20);
+            lblD6tot.TabIndex = 28;
+            lblD6tot.Text = "0";
             // 
-            // label12
+            // lblD4tot
             // 
-            label12.AutoSize = true;
-            label12.Location = new Point(119, 129);
-            label12.Name = "label12";
-            label12.Size = new Size(17, 20);
-            label12.TabIndex = 29;
-            label12.Text = "0";
+            lblD4tot.AutoSize = true;
+            lblD4tot.Location = new Point(119, 129);
+            lblD4tot.Name = "lblD4tot";
+            lblD4tot.Size = new Size(17, 20);
+            lblD4tot.TabIndex = 29;
+            lblD4tot.Text = "0";
             // 
-            // label13
+            // lblD4_1
             // 
-            label13.AutoSize = true;
-            label13.Location = new Point(119, 165);
-            label13.Name = "label13";
-            label13.Size = new Size(29, 20);
-            label13.TabIndex = 32;
-            label13.Text = "0%";
+            lblD4_1.AutoSize = true;
+            lblD4_1.Location = new Point(119, 165);
+            lblD4_1.Name = "lblD4_1";
+            lblD4_1.Size = new Size(29, 20);
+            lblD4_1.TabIndex = 32;
+            lblD4_1.Text = "0%";
             // 
-            // label14
+            // lblD6_1
             // 
-            label14.AutoSize = true;
-            label14.Location = new Point(262, 165);
-            label14.Name = "label14";
-            label14.Size = new Size(29, 20);
-            label14.TabIndex = 31;
-            label14.Text = "0%";
+            lblD6_1.AutoSize = true;
+            lblD6_1.Location = new Point(262, 165);
+            lblD6_1.Name = "lblD6_1";
+            lblD6_1.Size = new Size(29, 20);
+            lblD6_1.TabIndex = 31;
+            lblD6_1.Text = "0%";
             // 
-            // label15
+            // lblD8_1
             // 
-            label15.AutoSize = true;
-            label15.Location = new Point(410, 165);
-            label15.Name = "label15";
-            label15.Size = new Size(29, 20);
-            label15.TabIndex = 30;
-            label15.Text = "0%";
+            lblD8_1.AutoSize = true;
+            lblD8_1.Location = new Point(410, 165);
+            lblD8_1.Name = "lblD8_1";
+            lblD8_1.Size = new Size(29, 20);
+            lblD8_1.TabIndex = 30;
+            lblD8_1.Text = "0%";
             // 
-            // label16
+            // lblD4_2
             // 
-            label16.AutoSize = true;
-            label16.Location = new Point(119, 201);
-            label16.Name = "label16";
-            label16.Size = new Size(29, 20);
-            label16.TabIndex = 35;
-            label16.Text = "0%";
+            lblD4_2.AutoSize = true;
+            lblD4_2.Location = new Point(119, 201);
+            lblD4_2.Name = "lblD4_2";
+            lblD4_2.Size = new Size(29, 20);
+            lblD4_2.TabIndex = 35;
+            lblD4_2.Text = "0%";
             // 
-            // label17
+            // lblD6_2
             // 
-            label17.AutoSize = true;
-            label17.Location = new Point(262, 201);
-            label17.Name = "label17";
-            label17.Size = new Size(29, 20);
-            label17.TabIndex = 34;
-            label17.Text = "0%";
+            lblD6_2.AutoSize = true;
+            lblD6_2.Location = new Point(262, 201);
+            lblD6_2.Name = "lblD6_2";
+            lblD6_2.Size = new Size(29, 20);
+            lblD6_2.TabIndex = 34;
+            lblD6_2.Text = "0%";
             // 
-            // label18
+            // lblD8_2
             // 
-            label18.AutoSize = true;
-            label18.Location = new Point(410, 201);
-            label18.Name = "label18";
-            label18.Size = new Size(29, 20);
-            label18.TabIndex = 33;
-            label18.Text = "0%";
+            lblD8_2.AutoSize = true;
+            lblD8_2.Location = new Point(410, 201);
+            lblD8_2.Name = "lblD8_2";
+            lblD8_2.Size = new Size(29, 20);
+            lblD8_2.TabIndex = 33;
+            lblD8_2.Text = "0%";
             // 
-            // label19
+            // lblD4_3
             // 
-            label19.AutoSize = true;
-            label19.Location = new Point(119, 237);
-            label19.Name = "label19";
-            label19.Size = new Size(29, 20);
-            label19.TabIndex = 38;
-            label19.Text = "0%";
+            lblD4_3.AutoSize = true;
+            lblD4_3.Location = new Point(119, 237);
+            lblD4_3.Name = "lblD4_3";
+            lblD4_3.Size = new Size(29, 20);
+            lblD4_3.TabIndex = 38;
+            lblD4_3.Text = "0%";
             // 
-            // label20
+            // lblD6_3
             // 
-            label20.AutoSize = true;
-            label20.Location = new Point(262, 237);
-            label20.Name = "label20";
-            label20.Size = new Size(29, 20);
-            label20.TabIndex = 37;
-            label20.Text = "0%";
+            lblD6_3.AutoSize = true;
+            lblD6_3.Location = new Point(262, 237);
+            lblD6_3.Name = "lblD6_3";
+            lblD6_3.Size = new Size(29, 20);
+            lblD6_3.TabIndex = 37;
+            lblD6_3.Text = "0%";
             // 
-            // label21
+            // lblD8_3
             // 
-            label21.AutoSize = true;
-            label21.Location = new Point(410, 237);
-            label21.Name = "label21";
-            label21.Size = new Size(29, 20);
-            label21.TabIndex = 36;
-            label21.Text = "0%";
+            lblD8_3.AutoSize = true;
+            lblD8_3.Location = new Point(410, 237);
+            lblD8_3.Name = "lblD8_3";
+            lblD8_3.Size = new Size(29, 20);
+            lblD8_3.TabIndex = 36;
+            lblD8_3.Text = "0%";
             // 
-            // label22
+            // lblD4_4
             // 
-            label22.AutoSize = true;
-            label22.Location = new Point(119, 275);
-            label22.Name = "label22";
-            label22.Size = new Size(29, 20);
-            label22.TabIndex = 41;
-            label22.Text = "0%";
+            lblD4_4.AutoSize = true;
+            lblD4_4.Location = new Point(119, 275);
+            lblD4_4.Name = "lblD4_4";
+            lblD4_4.Size = new Size(29, 20);
+            lblD4_4.TabIndex = 41;
+            lblD4_4.Text = "0%";
             // 
-            // label23
+            // lblD6_4
             // 
-            label23.AutoSize = true;
-            label23.Location = new Point(262, 275);
-            label23.Name = "label23";
-            label23.Size = new Size(29, 20);
-            label23.TabIndex = 40;
-            label23.Text = "0%";
+            lblD6_4.AutoSize = true;
+            lblD6_4.Location = new Point(262, 275);
+            lblD6_4.Name = "lblD6_4";
+            lblD6_4.Size = new Size(29, 20);
+            lblD6_4.TabIndex = 40;
+            lblD6_4.Text = "0%";
             // 
-            // label24
+            // lblD8_4
             // 
-            label24.AutoSize = true;
-            label24.Location = new Point(410, 275);
-            label24.Name = "label24";
-            label24.Size = new Size(29, 20);
-            label24.TabIndex = 39;
-            label24.Text = "0%";
+            lblD8_4.AutoSize = true;
+            lblD8_4.Location = new Point(410, 275);
+            lblD8_4.Name = "lblD8_4";
+            lblD8_4.Size = new Size(29, 20);
+            lblD8_4.TabIndex = 39;
+            lblD8_4.Text = "0%";
             // 
-            // label26
+            // lblD6_5
             // 
-            label26.AutoSize = true;
-            label26.Location = new Point(262, 311);
-            label26.Name = "label26";
-            label26.Size = new Size(29, 20);
-            label26.TabIndex = 43;
-            label26.Text = "0%";
+            lblD6_5.AutoSize = true;
+            lblD6_5.Location = new Point(262, 311);
+            lblD6_5.Name = "lblD6_5";
+            lblD6_5.Size = new Size(29, 20);
+            lblD6_5.TabIndex = 43;
+            lblD6_5.Text = "0%";
             // 
-            // label29
+            // lblD6_6
             // 
-            label29.AutoSize = true;
-            label29.Location = new Point(262, 347);
-            label29.Name = "label29";
-            label29.Size = new Size(29, 20);
-            label29.TabIndex = 46;
-            label29.Text = "0%";
+            lblD6_6.AutoSize = true;
+            lblD6_6.Location = new Point(262, 347);
+            lblD6_6.Name = "lblD6_6";
+            lblD6_6.Size = new Size(29, 20);
+            lblD6_6.TabIndex = 46;
+            lblD6_6.Text = "0%";
             // 
-            // label36
+            // lblD8_8
             // 
-            label36.AutoSize = true;
-            label36.Location = new Point(410, 419);
-            label36.Name = "label36";
-            label36.Size = new Size(29, 20);
-            label36.TabIndex = 51;
-            label36.Text = "0%";
+            lblD8_8.AutoSize = true;
+            lblD8_8.Location = new Point(410, 419);
+            lblD8_8.Name = "lblD8_8";
+            lblD8_8.Size = new Size(29, 20);
+            lblD8_8.TabIndex = 51;
+            lblD8_8.Text = "0%";
             // 
-            // label33
+            // lblD8_7
             // 
-            label33.AutoSize = true;
-            label33.Location = new Point(410, 383);
-            label33.Name = "label33";
-            label33.Size = new Size(29, 20);
-            label33.TabIndex = 48;
-            label33.Text = "0%";
+            lblD8_7.AutoSize = true;
+            lblD8_7.Location = new Point(410, 383);
+            lblD8_7.Name = "lblD8_7";
+            lblD8_7.Size = new Size(29, 20);
+            lblD8_7.TabIndex = 48;
+            lblD8_7.Text = "0%";
             // 
-            // label30
+            // lblD8_6
             // 
-            label30.AutoSize = true;
-            label30.Location = new Point(410, 347);
-            label30.Name = "label30";
-            label30.Size = new Size(29, 20);
-            label30.TabIndex = 45;
-            label30.Text = "0%";
+            lblD8_6.AutoSize = true;
+            lblD8_6.Location = new Point(410, 347);
+            lblD8_6.Name = "lblD8_6";
+            lblD8_6.Size = new Size(29, 20);
+            lblD8_6.TabIndex = 45;
+            lblD8_6.Text = "0%";
             // 
-            // label27
+            // lblD8_5
             // 
-            label27.AutoSize = true;
-            label27.Location = new Point(410, 311);
-            label27.Name = "label27";
-            label27.Size = new Size(29, 20);
-            label27.TabIndex = 42;
-            label27.Text = "0%";
+            lblD8_5.AutoSize = true;
+            lblD8_5.Location = new Point(410, 311);
+            lblD8_5.Name = "lblD8_5";
+            lblD8_5.Size = new Size(29, 20);
+            lblD8_5.TabIndex = 42;
+            lblD8_5.Text = "0%";
             // 
             // StatForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(541, 455);
-            Controls.Add(label36);
-            Controls.Add(label33);
-            Controls.Add(label29);
-            Controls.Add(label30);
-            Controls.Add(label26);
-            Controls.Add(label27);
-            Controls.Add(label22);
-            Controls.Add(label23);
-            Controls.Add(label24);
-            Controls.Add(label19);
-            Controls.Add(label20);
-            Controls.Add(label21);
-            Controls.Add(label16);
-            Controls.Add(label17);
-            Controls.Add(label18);
-            Controls.Add(label13);
-            Controls.Add(label14);
-            Controls.Add(label15);
-            Controls.Add(label12);
-            Controls.Add(label11);
-            Controls.Add(label10);
+            Controls.Add(lblD8_8);
+            Controls.Add(lblD8_7);
+            Controls.Add(lblD6_6);
+            Controls.Add(lblD8_6);
+            Controls.Add(lblD6_5);
+            Controls.Add(lblD8_5);
+            Controls.Add(lblD4_4);
+            Controls.Add(lblD6_4);
+            Controls.Add(lblD8_4);
+            Controls.Add(lblD4_3);
+            Controls.Add(lblD6_3);
+            Controls.Add(lblD8_3);
+            Controls.Add(lblD4_2);
+            Controls.Add(lblD6_2);
+            Controls.Add(lblD8_2);
+            Controls.Add(lblD4_1);
+            Controls.Add(lblD6_1);
+            Controls.Add(lblD8_1);
+            Controls.Add(lblD4tot);
+            Controls.Add(lblD6tot);
+            Controls.Add(lblD8tot);
             Controls.Add(pictureBox2);
             Controls.Add(label9);
             Controls.Add(pictureBox8);
@@ -534,26 +534,26 @@
         private Label label8;
         private Label label9;
         private PictureBox pictureBox2;
-        private Label label10;
-        private Label label11;
-        private Label label12;
-        private Label label13;
-        private Label label14;
-        private Label label15;
-        private Label label16;
-        private Label label17;
-        private Label label18;
-        private Label label19;
-        private Label label20;
-        private Label label21;
-        private Label label22;
-        private Label label23;
-        private Label label24;
-        private Label label26;
-        private Label label29;
-        private Label label36;
-        private Label label33;
-        private Label label30;
-        private Label label27;
+        private Label lblD8tot;
+        private Label lblD6tot;
+        private Label lblD4tot;
+        private Label lblD4_1;
+        private Label lblD6_1;
+        private Label lblD8_1;
+        private Label lblD4_2;
+        private Label lblD6_2;
+        private Label lblD8_2;
+        private Label lblD4_3;
+        private Label lblD6_3;
+        private Label lblD8_3;
+        private Label lblD4_4;
+        private Label lblD6_4;
+        private Label lblD8_4;
+        private Label lblD6_5;
+        private Label lblD6_6;
+        private Label lblD8_8;
+        private Label lblD8_7;
+        private Label lblD8_6;
+        private Label lblD8_5;
     }
 }

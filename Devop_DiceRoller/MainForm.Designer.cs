@@ -36,8 +36,8 @@
             lblD6 = new Label();
             lblD8 = new Label();
             tbxD4 = new TextBox();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            tbxD6 = new TextBox();
+            tbxD8 = new TextBox();
             button1 = new Button();
             pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -51,6 +51,7 @@
             btn1d4Roll.TabIndex = 0;
             btn1d4Roll.Text = "Roll";
             btn1d4Roll.UseVisualStyleBackColor = true;
+            btn1d4Roll.Click += btn1d4Roll_Click;
             // 
             // btn1d6Roll
             // 
@@ -60,6 +61,7 @@
             btn1d6Roll.TabIndex = 1;
             btn1d6Roll.Text = "Roll";
             btn1d6Roll.UseVisualStyleBackColor = true;
+            btn1d6Roll.Click += btn1d6Roll_Click;
             // 
             // btn1d8Roll
             // 
@@ -69,6 +71,7 @@
             btn1d8Roll.TabIndex = 2;
             btn1d8Roll.Text = "Roll";
             btn1d8Roll.UseVisualStyleBackColor = true;
+            btn1d8Roll.Click += btn1d8Roll_Click;
             // 
             // lblD4
             // 
@@ -102,30 +105,33 @@
             tbxD4.ForeColor = SystemColors.ScrollBar;
             tbxD4.Location = new Point(40, 336);
             tbxD4.Name = "tbxD4";
+            tbxD4.ReadOnly = true;
             tbxD4.Size = new Size(80, 27);
             tbxD4.TabIndex = 6;
             tbxD4.Text = "Result";
             tbxD4.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox1
+            // tbxD6
             // 
-            textBox1.ForeColor = SystemColors.ScrollBar;
-            textBox1.Location = new Point(181, 336);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(80, 27);
-            textBox1.TabIndex = 8;
-            textBox1.Text = "Result";
-            textBox1.TextAlign = HorizontalAlignment.Center;
+            tbxD6.ForeColor = SystemColors.ScrollBar;
+            tbxD6.Location = new Point(181, 336);
+            tbxD6.Name = "tbxD6";
+            tbxD6.ReadOnly = true;
+            tbxD6.Size = new Size(80, 27);
+            tbxD6.TabIndex = 8;
+            tbxD6.Text = "Result";
+            tbxD6.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox2
+            // tbxD8
             // 
-            textBox2.ForeColor = SystemColors.ScrollBar;
-            textBox2.Location = new Point(328, 336);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(80, 27);
-            textBox2.TabIndex = 9;
-            textBox2.Text = "Result";
-            textBox2.TextAlign = HorizontalAlignment.Center;
+            tbxD8.ForeColor = SystemColors.ScrollBar;
+            tbxD8.Location = new Point(328, 336);
+            tbxD8.Name = "tbxD8";
+            tbxD8.ReadOnly = true;
+            tbxD8.Size = new Size(80, 27);
+            tbxD8.TabIndex = 9;
+            tbxD8.Text = "Result";
+            tbxD8.TextAlign = HorizontalAlignment.Center;
             // 
             // button1
             // 
@@ -135,6 +141,7 @@
             button1.TabIndex = 10;
             button1.Text = "Statistics";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // pictureBox1
             // 
@@ -145,15 +152,15 @@
             pictureBox1.TabIndex = 11;
             pictureBox1.TabStop = false;
             // 
-            // Form1
+            // MainForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(451, 390);
             Controls.Add(pictureBox1);
             Controls.Add(button1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(tbxD8);
+            Controls.Add(tbxD6);
             Controls.Add(tbxD4);
             Controls.Add(lblD8);
             Controls.Add(lblD6);
@@ -161,7 +168,7 @@
             Controls.Add(btn1d8Roll);
             Controls.Add(btn1d6Roll);
             Controls.Add(btn1d4Roll);
-            Name = "Form1";
+            Name = "MainForm";
             Text = "Dice Roller";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
@@ -177,8 +184,8 @@
         private Label lblD6;
         private Label lblD8;
         private TextBox tbxD4;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox tbxD6;
+        private TextBox tbxD8;
         private Button button1;
         private PictureBox pictureBox1;
     }

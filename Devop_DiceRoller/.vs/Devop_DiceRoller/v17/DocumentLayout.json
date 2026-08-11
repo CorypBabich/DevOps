@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\gamem\\Desktop\\DevOps\\Devop_DiceRoller\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F3846EED-75C2-4CBA-9F8B-67981E8D419C}|Devop_DiceRoller.csproj|c:\\users\\gamem\\desktop\\devops\\devop_diceroller\\statform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F3846EED-75C2-4CBA-9F8B-67981E8D419C}|Devop_DiceRoller.csproj|solutionrelative:statform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F3846EED-75C2-4CBA-9F8B-67981E8D419C}|Devop_DiceRoller.csproj|C:\\Users\\gamem\\Desktop\\DevOps\\Devop_DiceRoller\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F3846EED-75C2-4CBA-9F8B-67981E8D419C}|Devop_DiceRoller.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3846EED-75C2-4CBA-9F8B-67981E8D419C}|Devop_DiceRoller.csproj|c:\\users\\gamem\\desktop\\devops\\devop_diceroller\\statform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3846EED-75C2-4CBA-9F8B-67981E8D419C}|Devop_DiceRoller.csproj|solutionrelative:statform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3846EED-75C2-4CBA-9F8B-67981E8D419C}|Devop_DiceRoller.csproj|C:\\Users\\gamem\\Desktop\\DevOps\\Devop_DiceRoller\\statform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F3846EED-75C2-4CBA-9F8B-67981E8D419C}|Devop_DiceRoller.csproj|solutionrelative:statform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3846EED-75C2-4CBA-9F8B-67981E8D419C}|Devop_DiceRoller.csproj|c:\\users\\gamem\\desktop\\devops\\devop_diceroller\\statform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3846EED-75C2-4CBA-9F8B-67981E8D419C}|Devop_DiceRoller.csproj|solutionrelative:statform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3846EED-75C2-4CBA-9F8B-67981E8D419C}|Devop_DiceRoller.csproj|c:\\users\\gamem\\desktop\\devops\\devop_diceroller\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3846EED-75C2-4CBA-9F8B-67981E8D419C}|Devop_DiceRoller.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3846EED-75C2-4CBA-9F8B-67981E8D419C}|Devop_DiceRoller.csproj|c:\\users\\gamem\\desktop\\devops\\devop_diceroller\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3846EED-75C2-4CBA-9F8B-67981E8D419C}|Devop_DiceRoller.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3846EED-75C2-4CBA-9F8B-67981E8D419C}|Devop_DiceRoller.csproj|c:\\users\\gamem\\desktop\\devops\\devop_diceroller\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3846EED-75C2-4CBA-9F8B-67981E8D419C}|Devop_DiceRoller.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3846EED-75C2-4CBA-9F8B-67981E8D419C}|Devop_DiceRoller.csproj|c:\\users\\gamem\\desktop\\devops\\devop_diceroller\\statform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3846EED-75C2-4CBA-9F8B-67981E8D419C}|Devop_DiceRoller.csproj|solutionrelative:statform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3846EED-75C2-4CBA-9F8B-67981E8D419C}|Devop_DiceRoller.csproj|c:\\users\\gamem\\desktop\\devops\\devop_diceroller\\statform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3846EED-75C2-4CBA-9F8B-67981E8D419C}|Devop_DiceRoller.csproj|solutionrelative:statform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "StatForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\gamem\\Desktop\\DevOps\\Devop_DiceRoller\\StatForm.Designer.cs",
               "RelativeDocumentMoniker": "StatForm.Designer.cs",
               "ToolTip": "C:\\Users\\gamem\\Desktop\\DevOps\\Devop_DiceRoller\\StatForm.Designer.cs",
               "RelativeToolTip": "StatForm.Designer.cs",
-              "ViewState": "AgIAAMoAAAAAAAAAAAAnwNoAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-04T01:10:07.461Z",
               "EditorCaption": ""
@@ -52,19 +52,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "StatForm.cs",
-              "DocumentMoniker": "C:\\Users\\gamem\\Desktop\\DevOps\\Devop_DiceRoller\\StatForm.cs",
-              "RelativeDocumentMoniker": "StatForm.cs",
-              "ToolTip": "C:\\Users\\gamem\\Desktop\\DevOps\\Devop_DiceRoller\\StatForm.cs",
-              "RelativeToolTip": "StatForm.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAnwBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-04T01:09:55.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\gamem\\Desktop\\DevOps\\Devop_DiceRoller\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "MainForm.Designer.cs",
@@ -72,24 +59,25 @@
               "RelativeToolTip": "MainForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-03T00:13:29.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\gamem\\Desktop\\DevOps\\Devop_DiceRoller\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "C:\\Users\\gamem\\Desktop\\DevOps\\Devop_DiceRoller\\MainForm.cs",
-              "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-03T00:08:46.563Z",
+              "WhenOpened": "2026-08-03T00:13:29.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "StatForm.cs",
+              "DocumentMoniker": "C:\\Users\\gamem\\Desktop\\DevOps\\Devop_DiceRoller\\StatForm.cs",
+              "RelativeDocumentMoniker": "StatForm.cs",
+              "ToolTip": "C:\\Users\\gamem\\Desktop\\DevOps\\Devop_DiceRoller\\StatForm.cs",
+              "RelativeToolTip": "StatForm.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwDkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T01:09:55.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "StatForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\gamem\\Desktop\\DevOps\\Devop_DiceRoller\\StatForm.cs",
               "RelativeDocumentMoniker": "StatForm.cs",
@@ -101,14 +89,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\gamem\\Desktop\\DevOps\\Devop_DiceRoller\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\gamem\\Desktop\\DevOps\\Devop_DiceRoller\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T00:08:46.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\gamem\\Desktop\\DevOps\\Devop_DiceRoller\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "C:\\Users\\gamem\\Desktop\\School Stuff\\C# Web Apps\\Devop_DiceRoller\\MainForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\School Stuff\\C# Web Apps\\Devop_DiceRoller\\MainForm.cs [Design]",
+              "ToolTip": "C:\\Users\\gamem\\Desktop\\DevOps\\Devop_DiceRoller\\MainForm.cs [Design]",
+              "RelativeToolTip": "MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-02T23:40:11.726Z"
+              "WhenOpened": "2026-08-02T23:40:11.726Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
