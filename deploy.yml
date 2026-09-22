@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Delpoyment
+
+metadata: 
+  name: dice-roller-deploy
+  labels:
+    app: dice-roller
+    
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dice-roller
+      
+template: 
+  metadata:
+    labels:
+      app: dice-roller
+  spec:
+    containers:
+    - name: dice-roller
+      image: diceroller:latest
+      ports:
+      - protocol: TCP
+        port: 80 
+      - containerPort: 80
+      tpye: NodePort

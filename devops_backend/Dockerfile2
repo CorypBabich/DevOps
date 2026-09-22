@@ -1,0 +1,36 @@
+# syntax=docker/dockerfile:1
+
+# Stage 1: Restore dependencies (Base Setup)
+FROM --platform=$BUILDPLATFORM ://microsoft.com AS restore
+ARG TARGETARCH
+WORKDIR /src
+
+# FIX 1: Copy the project file first to allow for proper layer caching
+COPY devops_backend.csproj .
+RUN dotnet restore devops_backend.csproj -a $TARGETARCH
+
+# Stage 2: Build the application
+FROM restore AS build
+# FIX 2: Copy the rest of the application source code *after* restoring
+COPY . .
+RUN dotnet build devops_backend.csproj -c Release --no-restore -a $TARGETARCH
+
+# FIX 3: Add the missing publish stage to output optimized production binaries
+FROM build AS publish
+ARG TARGETARCH
+RUN dotnet publish devops_backend.csproj -c Release --no-restore -a $TARGETARCH -o /app/publish
+
+# Stage 4: Create the final lean runtime image
+FROM ://microsoft.com AS final
+WORKDIR /app
+EXPOSE 8080
+ENV ASPNETCORE_URLS=http://+:8080 \
+    ASPNETCORE_ENVIRONMENT=Production
+
+# FIX 4: Uncomment and copy the compiled application from the publish stage
+COPY --from=publish /app/publish .
+
+USER $APP_UID
+
+# FIX 5: Match the output DLL name to the project name (devops_backend.dll)
+ENTRYPOINT ["dotnet", "devops_backend.dll"]

@@ -1,1 +1,0 @@
-My a .net application will be a dice roller. Randomly generating results for a four sided, a six sided, and an eight sided dice. After the user selects a die and gets their result, the application will record the dice used and the result and save them to an SQL Server. Using the results save to the SQL server, the application can show the frequency of results for each dice. 
