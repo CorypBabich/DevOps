@@ -25,9 +25,9 @@
                 </tr>
                 <tr>
                     <td>
-                        <input name="d4Input" type="text" size="6" id="d4Input">
-                        <input name="d6Input" style="margin-left:49px" type="text" size="6" id="d6Input">
-                    <input name="d8Input" style="margin-left:49px" type="text" size="6" id="d8Input">
+                        <asp:Label name="d4Input" Style="border:groove" runat="server" size="6" id="d4Input"/>
+                        <asp:Label name="d6Input" style="border:groove;margin-left:49px" runat="server" size="6" id="d6Input"/>
+                        <asp:Label name="d8Input" style="border:groove;margin-left:49px" runat="server" size="6" id="d8Input"/>
                     </td>
                 </tr>
             </table>
@@ -62,7 +62,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:Label ID="lbl_D6_tot" Text="totals" runat="server" style="margin-left:15px"/>
+                        <asp:Label ID="lbl_D6_tot" Text="0" runat="server" style="margin-left:15px"/>
                         <asp:Label ID="lbl_D6_1" Text="0" runat="server" style="margin-left:35px" />
                         <asp:Label ID="lbl_D6_2" Text="0" runat="server" style="margin-left:36px"/>
                         <asp:Label ID="lbl_D6_3" Text="0" runat="server" style="margin-left:36px"/>
@@ -73,7 +73,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:Label ID="lbl_D4_tot" Text="totals" runat="server" style="margin-left:15px"/>
+                        <asp:Label ID="lbl_D4_tot" Text="0" runat="server" style="margin-left:15px"/>
                         <asp:Label ID="lbl_D4_1" Text="0" runat="server" style="margin-left:36px" />
                         <asp:Label ID="lbl_D4_2" Text="0" runat="server" style="margin-left:36px"/>
                         <asp:Label ID="lbl_D4_3" Text="0" runat="server" style="margin-left:36px"/>
@@ -81,6 +81,7 @@
                     </td>
                 </tr>
             </table>
+            <asp:Label ID="lblError" Text="" runat="server" style="margin-left:36px"/>
         </div>
     </main>
 
