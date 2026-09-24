@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Build and Test
-      working-directory: ../devops_frontend
+      working-directory: devops_frontend
       #run: cd devops_frontend
       run: docker build . | dotnet test --no-build
     # compose-smoke:
