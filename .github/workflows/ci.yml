@@ -1,6 +1,6 @@
 name: Dice_Roller
 
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+run-name: ${{ github.actor }}'s' GitHub Actions are doing something 🚀    (Kinda)
 
 on:
   push:
