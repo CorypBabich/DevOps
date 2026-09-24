@@ -14,7 +14,7 @@ jobs:
     - name: Show repository contents
       run: |
         pwd
-        ls -
+        ls
     - uses: actions/checkout@v4
     - name: Build and Test
       working-directory: devops_frontend
