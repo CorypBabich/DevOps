@@ -16,6 +16,7 @@ on:
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
+    working-directory: ./devops_frontend
     steps:
     - run: cd devops_frontend
     - run: docker build . 
