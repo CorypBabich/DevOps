@@ -17,6 +17,12 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+    - run: docker build .
+    - run: dotnet test --no-build
+    # steps:
+    # - uses: actions/checkout@v6
+    # - name: Setup dotnet
+    # uses: actions/setup-dotnet@v4
+
 
  
