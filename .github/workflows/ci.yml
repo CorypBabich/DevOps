@@ -2,13 +2,6 @@ name: Dice_Roller
 
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 
-# on: [push]
-# jobs:
-#   Explore-GitHub-Actions:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-
 on:
   push:
     branches:
@@ -18,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Build and Test
-      working-directory: devops_frontend
+      working-directory: ../devops_frontend
       #run: cd devops_frontend
       run: docker build . | dotnet test --no-build
     # compose-smoke:
