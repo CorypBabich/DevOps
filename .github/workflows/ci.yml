@@ -17,12 +17,16 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-    - run: docker build .
+    - run: cd devops_frontend
+    - run: docker build . 
     - run: dotnet test --no-build
-    # steps:
-    # - uses: actions/checkout@v6
-    # - name: Setup dotnet
-    # uses: actions/setup-dotnet@v4
+    jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    environment: production
+    concurrency: production
+    steps:
+      - name: deploy
 
 
  
