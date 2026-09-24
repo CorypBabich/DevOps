@@ -1,21 +1,22 @@
 # syntax=docker/dockerfile:1
 
-FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:10.0 AS restore
+#FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/framework/sdk:4.8 AS restore
+FROM mcr.microsoft.com/dotnet/framework/sdk:4.8
 ARG TARGETARCH
 WORKDIR /src
 
-COPY DevOps.csproj .
-RUN dotnet restore DevOps.csproj -a $TARGETARCH
+#COPY DevOps.csproj .
+#RUN dotnet restore DevOps.csproj -a $TARGETARCH
 
 FROM restore AS build
 COPY . .
-RUN dotnet build DevOps.csproj -c Release --no-restore -a $TARGETARCH
+RUN msbuild DevOps.csproj -c Release --no-restore -a $TARGETARCH
 
 FROM build AS publish
 ARG TARGETARCH
-RUN dotnet publish DevOps.csproj -c Release --no-restore -a $TARGETARCH -o /app/publish
+RUN mspublish DevOps.csproj -c Release --no-restore -a $TARGETARCH -o /app/publish
 
-FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS final
+FROM mcr.microsoft.com/dotnet/framework/sdk:4.8 AS final
 WORKDIR /app
 EXPOSE 8080
 ENV ASPNETCORE_URLS=http://+:8080 \

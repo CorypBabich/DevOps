@@ -23,7 +23,6 @@ namespace DevOps
 
             SqlCommand Comm = new SqlCommand();
             String strSQL = "SELECT * FROM [dbo].[DevOps_DiceRoller]";
-            //String strSQL = $"INSERT INTO [dbo].[DevOps_DiceRoller] (DieType, DieVal) VALUES('6','2')";
 
             //Connect with the SQL Server
             SqlConnection Conn = new SqlConnection();
